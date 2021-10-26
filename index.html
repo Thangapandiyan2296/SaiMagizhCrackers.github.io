@@ -29,7 +29,13 @@ emailjs.init("user_dva4B69yEYORmcyPi1VfS");
     <a href="https://wa.me/+918508098627" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
    
     <style>
-
+@media(max-width:768)
+{
+    body
+    {
+        display: block;
+    }
+}
         body
         {
             
@@ -90,6 +96,14 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
   
   display: inline-block;
 }
+/*@media (max-width: 768px)
+{
+body
+{
+    
+}
+}*/
+
 #menu img /* sai baba logo left side*/   
 {
     
@@ -303,7 +317,7 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
 #list2  
 {
    
-    width:600px;
+    width:100%px;
     
  display: inline;
  position: relative;
@@ -1135,6 +1149,7 @@ marquee
 }*/
 /*@media (max-width: 550px)
 {
+{
     #left
 {
     width:400px;
@@ -1228,6 +1243,7 @@ marquee
 {
     background-color:green;
 }
+
 </style>
 <script src="https://carrier.formcarry.com/js/v1.js">
  
@@ -1253,11 +1269,11 @@ window.onscroll=function(){
     <div class="container1">
         <div id="menu">
             
-            <img src="imgs/sai_logof.png"/>
+            <img id="sai_img" src="imgs/sai_logof.png"/>
             <h1 id="logo_title">SAI MAGIZH<span> Crackers</span></h1>
              
-            
         </div>
+       
     <div id="banner">
         <img src="imgs/banner.jpg">
     </div>
